@@ -64,7 +64,7 @@ $ ps -ef
 * -s : 멈춘 작업만 출력한다.
 
 ```
-$ sleep 360 // jobs에 띄울 작업 예시
+$ sleep 360      // jobs에 띄울 작업 예시
 
 $ sleep 180
 
@@ -87,18 +87,18 @@ $ jobs -l
 
 + -l : 시그널 이름과 번호를 나타냄
 
-`kill %<번호> // jobs로 확인한 작업번호로 kill을 수행함`
+`kill %<번호>     // jobs로 확인한 작업번호로 kill을 수행함`
 
 ```
-$ sleep 360 // jobs와 kill을 수행할 작업 예시
+$ sleep 360    // jobs와 kill을 수행할 작업 예시
 
 $ sleep 180
 
-$ jobs // jobs로 작업 목록 출력
+$ jobs         // jobs로 작업 목록 출력
 
-$ kill %1 // 1번 작업 종료
+$ kill %1      // 1번 작업 종료
 
-$ jobs // 종료가 되었는지 확인
+$ jobs         // 종료가 되었는지 확인
 ```
 
 ![kill](https://github.com/A20233174/study_opensource/assets/133977632/bed4a789-9ff5-42c8-8270-8b2460983b9b)
